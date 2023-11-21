@@ -6,16 +6,13 @@ mot = "ronjonb"
 var1 + var2
 moi + mot
 
-for i in [0, 1, 2, 3]:
-    print("i a pour valeur", i)
-
-for i in range(4):
-    print("i a pour valeur", i)
-
-
-    prompt = "bonjour"
-    array = list(prompt)
-    resulta
+prompt = "bonjour"
+array = list(prompt)
+count = len(array)
+result =""
+for i in range (count) :
+    result = result + array[count-(i+1)]
+print(result)    
 
 
 
