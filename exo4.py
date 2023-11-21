@@ -5,6 +5,7 @@
 nbr = 5
 fact = 1
 for i in range(1, nbr+1):
-  fact = fact * i
+
+    fact = fact * i
 print (fact)
 
