@@ -8,7 +8,10 @@ moi + mot
 
 prompt = "bonjour"
 array = list(prompt)
+print(prompt)
+print(array)
 count = len(array)
+print(count)
 result =""
 for i in range (count) :
     result = result + array[count-(i+1)]
